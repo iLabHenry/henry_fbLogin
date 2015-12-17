@@ -16,6 +16,8 @@
 		30105C451C20F80C0042D18E /* fbLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30105C441C20F80C0042D18E /* fbLoginTests.m */; };
 		30105C521C20FC5B0042D18E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30105C511C20FC5B0042D18E /* FBSDKCoreKit.framework */; };
 		30105C541C210A1D0042D18E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30105C531C210A1D0042D18E /* FBSDKLoginKit.framework */; };
+		30DD37011C22D359003C5829 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DD36FF1C22D359003C5829 /* FBSDKCoreKit.framework */; };
+		30DD37021C22D359003C5829 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30DD37001C22D359003C5829 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		30105C441C20F80C0042D18E /* fbLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fbLoginTests.m; sourceTree = "<group>"; };
 		30105C511C20FC5B0042D18E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		30105C531C210A1D0042D18E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		30DD36FF1C22D359003C5829 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		30DD37001C22D359003C5829 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				30105C541C210A1D0042D18E /* FBSDKLoginKit.framework in Frameworks */,
+				30DD37011C22D359003C5829 /* FBSDKCoreKit.framework in Frameworks */,
+				30DD37021C22D359003C5829 /* FBSDKLoginKit.framework in Frameworks */,
 				30105C521C20FC5B0042D18E /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +135,8 @@
 		30105C4E1C20FA4B0042D18E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				30DD36FF1C22D359003C5829 /* FBSDKCoreKit.framework */,
+				30DD37001C22D359003C5829 /* FBSDKLoginKit.framework */,
 				30105C531C210A1D0042D18E /* FBSDKLoginKit.framework */,
 				30105C511C20FC5B0042D18E /* FBSDKCoreKit.framework */,
 			);
@@ -367,6 +375,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/magic/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/fbLogin",
 				);
 				INFOPLIST_FILE = fbLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -385,6 +394,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/magic/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/fbLogin",
 				);
 				INFOPLIST_FILE = fbLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -447,6 +457,7 @@
 				30105C4A1C20F80C0042D18E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30105C4B1C20F80C0042D18E /* Build configuration list for PBXNativeTarget "fbLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +466,7 @@
 				30105C4D1C20F80C0042D18E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
